@@ -1,0 +1,31 @@
+:root{
+ --primary-color:#ee4d2d;
+ --text-color:#333;
+ --height-header: 120px;
+ --navbar-height:34px;
+ --white-color:#fff;
+ --black-color:#000;
+ --border-color:#dbdbdb;
+
+}
+
+*{
+    box-sizing: inherit;
+    /* Ke thua the html */
+}
+html{
+    /* 62.5% = 1rem = 10px */
+    font-size:62.5%; 
+    line-height:1.15rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* Animation */
+@keyframes fadeIn{
+    from{
+    opacity: 0;
+    }
+    to{
+   opacity: 1;
+    }
+}
